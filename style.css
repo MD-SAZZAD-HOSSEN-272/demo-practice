@@ -132,10 +132,11 @@ text-align: center;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
+    gap: 20px;
 }
 .container .deatils-offer {
     width: 200px;
-    margin: 0 30px;
+    /* margin: 0 30px; */
 }
 #abouts h3 {
     text-align: center;
@@ -166,8 +167,9 @@ text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
 }
-.about .about-more h2 {
+.about-more h2 {
     color: rgb(16, 16, 16);
 font-family: Work Sans;
 font-size: 25px;
@@ -177,7 +179,7 @@ letter-spacing: 0%;
 text-align: center;
 padding: 10px 120px;
 }
-.about .about-more p {
+.about-more p {
     color: rgb(16, 16, 16);
 font-family: Work Sans;
 font-size: 12px;
@@ -185,9 +187,10 @@ font-weight: 500;
 line-height: 14px;
 letter-spacing: 0%;
 opacity: 0.8;
+text-align: center;
 
 }
-.about .about-more h5 {
+.about-more h5 {
     opacity: 0.9;
     color: rgb(16, 16, 16);
     font-family: Work Sans;
@@ -197,9 +200,27 @@ opacity: 0.8;
     letter-spacing: 0%;
     text-align: center;
     padding: 15px 8px;
+    margin: 10px 0;
+    border-top: 2px solid lightslategray;
+    border-bottom: 2px solid lightslategray;
 }
-.about .about-more .social a {
+.about-more .social a {
     margin: 5px;
     font-size: 30px;
     color: rgb(49, 16, 80);
+}
+.about-more .social {
+    text-align: center;
+}
+.footer {
+    background: rgb(255, 255, 255) 100%;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .about-more {
+    width: 700px;
 }
