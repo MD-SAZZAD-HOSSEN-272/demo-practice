@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero {
+    
+    background-image: ;
+    background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("hero-bg.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero-content {
+    width: 685px;
+}
+.hero-content .subtitle {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center; 
+}
+.hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero-content .pra {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btn .button {
+    padding: 12px 15px 12px 15px;
+    margin: 32px 0px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn .button:hover {
+    background: lightgreen;
+    font-weight:  bolder;
+}
+.card-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.info .subtitle {
+    opacity: 0.9;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+}
+.info .title {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+}
+.info .img img {
+    height: 140px;
+    width: 200px;
+}
+.info .img {
+    text-align: center;
+}
+.info .res-name {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: olivedrab;
+    padding: 4px 8px;
+    margin: 0px 50px;
+    border-radius: 5px;
+}
+.info .offer {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+margin: 5px 0;
+}
+.info .deatils {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 9px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+}
+.info .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container .deatils-offer {
+    width: 200px;
+    margin: 0 30px;
+}
+#abouts h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid black;
+    margin-top: 20px;
+}
+.about {
+    width: 100%;
+    display: flex;
+}
+.about .img {
+    width: 50%;
+    margin-left: 10px;
+}
+.about .img img {
+    width: 780px;
+    height: 400px;
+    border-radius: 20px;
+}
+.about .about-more {
+    width: 50%;
+    height: 400px;
+    background: lightcyan;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-more h2 {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+padding: 10px 120px;
+}
+.about .about-more p {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0%;
+opacity: 0.8;
+
+}
+.about .about-more h5 {
+    opacity: 0.9;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 8px;
+}
+.about .about-more .social a {
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(49, 16, 80);
+}
