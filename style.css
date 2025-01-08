@@ -5,8 +5,6 @@
     padding: 0;
 }
 #hero {
-    
-    background-image: ;
     background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("hero-bg.png");
     height: 650px;
     background-repeat: no-repeat;
@@ -186,12 +184,12 @@ font-size: 12px;
 font-weight: 500;
 line-height: 14px;
 letter-spacing: 0%;
-opacity: 0.8;
+/* opacity: 0.8; */
 text-align: center;
 
 }
 .about-more h5 {
-    opacity: 0.9;
+    /* opacity: 0.9; */
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 18px;
@@ -203,6 +201,7 @@ text-align: center;
     margin: 10px 0;
     border-top: 2px solid lightslategray;
     border-bottom: 2px solid lightslategray;
+    width: 90%;
 }
 .about-more .social a {
     margin: 5px;
@@ -213,14 +212,19 @@ text-align: center;
     text-align: center;
 }
 .footer {
-    background: rgb(255, 255, 255) 100%;
     height: 600px;
     width: 100%;
+    background: url("social-bg.png");
+}
+.footer .about-more {
+    width: 700px;
+}
+.footer-bg {
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.footer .about-more {
-    width: 700px;
 }
